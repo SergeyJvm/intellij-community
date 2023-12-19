@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a script
-        run: ./insrallers.cmd > outfile.232.10.8.out
+        run: ./installers.cmd > outfile.232.10.8.out
