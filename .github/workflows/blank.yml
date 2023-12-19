@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: outfile.232.10.8.out
-          path: output.log
+          path: /home/runner/work/intellij-community/intellij-community/
       # Runs a single command using the runners shell
       - name: Download a single artifact
         uses: actions/download-artifact@v3
