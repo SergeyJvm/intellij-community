@@ -28,6 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a script getPlugins.sh
         run: ./getPlugins.sh
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
       # Runs a single command using the runners shell
       - name: Run a script
         run: ./installers.cmd -Dintellij.build.target.os=windows|tee outfile.232.10.8.out
